@@ -448,7 +448,7 @@
         "kind": 5,
         "importPath": "task_manager.settings",
         "description": "task_manager.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-your-secret-key-here'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['myapp.samiahamad.com']\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-your-secret-key-here'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG =False\nALLOWED_HOSTS = ['myapp.samiahamad.com', '127.0.0.1', 'localhost']\n# Application definition\nINSTALLED_APPS = [",
         "detail": "task_manager.settings",
         "documentation": {}
     },
@@ -457,16 +457,7 @@
         "kind": 5,
         "importPath": "task_manager.settings",
         "description": "task_manager.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-your-secret-key-here'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['myapp.samiahamad.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
-        "detail": "task_manager.settings",
-        "documentation": {}
-    },
-    {
-        "label": "DEBUG",
-        "kind": 5,
-        "importPath": "task_manager.settings",
-        "description": "task_manager.settings",
-        "peekOfCode": "DEBUG = False\nALLOWED_HOSTS = ['myapp.samiahamad.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-your-secret-key-here'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG =False\nALLOWED_HOSTS = ['myapp.samiahamad.com', '127.0.0.1', 'localhost']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
         "detail": "task_manager.settings",
         "documentation": {}
     },
@@ -475,7 +466,7 @@
         "kind": 5,
         "importPath": "task_manager.settings",
         "description": "task_manager.settings",
-        "peekOfCode": "ALLOWED_HOSTS = ['myapp.samiahamad.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'task_manager_app',",
+        "peekOfCode": "ALLOWED_HOSTS = ['myapp.samiahamad.com', '127.0.0.1', 'localhost']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'task_manager_app',",
         "detail": "task_manager.settings",
         "documentation": {}
     },
@@ -547,7 +538,7 @@
         "kind": 5,
         "importPath": "task_manager.settings",
         "description": "task_manager.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field",
         "detail": "task_manager.settings",
         "documentation": {}
     },
@@ -556,7 +547,7 @@
         "kind": 5,
         "importPath": "task_manager.settings",
         "description": "task_manager.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "task_manager.settings",
         "documentation": {}
     },
@@ -565,7 +556,7 @@
         "kind": 5,
         "importPath": "task_manager.settings",
         "description": "task_manager.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Authentication settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Authentication settings",
         "detail": "task_manager.settings",
         "documentation": {}
     },
@@ -574,7 +565,7 @@
         "kind": 5,
         "importPath": "task_manager.settings",
         "description": "task_manager.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Authentication settings\nLOGIN_REDIRECT_URL = 'task_manager:home'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Authentication settings\nLOGIN_REDIRECT_URL = 'task_manager:home'",
         "detail": "task_manager.settings",
         "documentation": {}
     },
@@ -583,16 +574,7 @@
         "kind": 5,
         "importPath": "task_manager.settings",
         "description": "task_manager.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Authentication settings\nLOGIN_REDIRECT_URL = 'task_manager:home'\nLOGOUT_REDIRECT_URL = 'task_manager:homepage'  # Redirect to homepage after logout\nLOGIN_URL = 'accounts:login'\n# Media files (User uploaded files)",
-        "detail": "task_manager.settings",
-        "documentation": {}
-    },
-    {
-        "label": "STATICFILES_DIRS",
-        "kind": 5,
-        "importPath": "task_manager.settings",
-        "description": "task_manager.settings",
-        "peekOfCode": "STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Authentication settings\nLOGIN_REDIRECT_URL = 'task_manager:home'\nLOGOUT_REDIRECT_URL = 'task_manager:homepage'  # Redirect to homepage after logout\nLOGIN_URL = 'accounts:login'\n# Media files (User uploaded files)\nMEDIA_URL = '/media/'",
+        "peekOfCode": "STATIC_URL = 'static/'\n# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Authentication settings\nLOGIN_REDIRECT_URL = 'task_manager:home'\nLOGOUT_REDIRECT_URL = 'task_manager:homepage'  # Redirect to homepage after logout\nLOGIN_URL = 'accounts:login'\n# Media files (User uploaded files)",
         "detail": "task_manager.settings",
         "documentation": {}
     },
