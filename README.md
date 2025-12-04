@@ -42,21 +42,6 @@ Frontend	HTML, CSS, Bootstrap
 Backend	Django (Python)
 Database	PostgreSQL
 Tools	Git, GitHub
-🗂️ Project Structure
-task_manager/
-│
-├── taskmanager/       # Django project settings
-├── tasks/             # Main app containing task logic
-│   ├── models.py      # Task model
-│   ├── views.py       # All CRUD views
-│   ├── urls.py        # App routes
-│   ├── forms.py       # Task form
-│   └── templates/     # HTML templates
-│
-├── static/            # CSS, JS, images
-├── db.sqlite3         # Database file
-├── requirements.txt
-└── manage.py
 
 🔧 Installation & Setup
 1. Clone the repository
