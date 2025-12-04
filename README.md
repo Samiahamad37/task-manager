@@ -40,7 +40,7 @@ Clean, simple folder structure
 Component	Technology
 Frontend	HTML, CSS, Bootstrap
 Backend	Django (Python)
-Database	PostgreSQL
+Database	SQLite3
 Tools	Git, GitHub
 
 🔧 Installation & Setup
